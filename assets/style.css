@@ -30,6 +30,11 @@ ul {
     font-size: 20px;
 }
 
+ol{
+    padding-left: 40px;
+    font-size: 20px;  
+}
+
 p {
     text-align: center;
     font-size: 30px;
@@ -41,3 +46,32 @@ p {
     border: 5px solid gray;
     box-shadow: 5px 10px #888888;
   }
+
+  .collapsible {
+    width: 80%;
+    margin: 15px auto;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    padding-left: 40px auto;
+    border: 5px solid gray;
+    display: block;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  
+  }
+  
+  .content {
+    display: none;
+    overflow: hidden;
+    width: 80%;
+    margin: 40px auto;
+    border: 5px solid gray;
+    box-shadow: 5px 10px #888888;
+  }
+
+  
